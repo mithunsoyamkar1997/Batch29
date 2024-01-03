@@ -1,0 +1,191 @@
+<html>
+<head>
+<title>TestNG:  Login_inventory_Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Login_inventory_Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Dec 23 14:01:14 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>86 seconds (86916 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.LoginPageTest.verifyTitleOfApplicationTest()'><b>verifyTitleOfApplicationTest</b><br>Test class: testCases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.LoginPageTest@6440112d</td></tr>
+<tr>
+<td title='testCases.inventory_Page_Test.remove2ProductTest()'><b>remove2ProductTest</b><br>Test class: testCases.inventory_Page_Test<br/>
+<a href="#Output-505316221" onClick='toggleBox("Output-505316221", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-505316221" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-505316221">
+Numbers of Product after removing=4<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.inventory_Page_Test@53fb3dab</td></tr>
+<tr>
+<td title='testCases.inventory_Page_Test.verifyFotterTextTest()'><b>verifyFotterTextTest</b><br>Test class: testCases.inventory_Page_Test<br/>
+<a href="#Output-757298272" onClick='toggleBox("Output-757298272", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-757298272" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-757298272">
+we get expected text in fotter=© 2023 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.inventory_Page_Test@53fb3dab</td></tr>
+<tr>
+<td title='testCases.inventory_Page_Test.verifyTwitterLogoTest()'><b>verifyTwitterLogoTest</b><br>Test class: testCases.inventory_Page_Test<br/>
+<a href="#Output-651431031" onClick='toggleBox("Output-651431031", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-651431031" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-651431031">
+the Twitter Logo is displayed on the webpage=true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.inventory_Page_Test@53fb3dab</td></tr>
+<tr>
+<td title='testCases.inventory_Page_Test.verifyFacebookLogoTest()'><b>verifyFacebookLogoTest</b><br>Test class: testCases.inventory_Page_Test<br/>
+<a href="#Output-2107760645" onClick='toggleBox("Output-2107760645", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2107760645" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2107760645">
+the facebook logo is displayed on the webpage=true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.inventory_Page_Test@53fb3dab</td></tr>
+<tr>
+<td title='testCases.inventory_Page_Test.verifyProductLableTest()'><b>verifyProductLableTest</b><br>Test class: testCases.inventory_Page_Test<br/>
+<a href="#Output-1509185872" onClick='toggleBox("Output-1509185872", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1509185872" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1509185872">
+We get the expected Title=Products<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.inventory_Page_Test@53fb3dab</td></tr>
+<tr>
+<td title='testCases.inventory_Page_Test.ClickOnCartIconTest()'><b>ClickOnCartIconTest</b><br>Test class: testCases.inventory_Page_Test</td>
+<td></td>
+<td>1</td>
+<td>testCases.inventory_Page_Test@53fb3dab</td></tr>
+<tr>
+<td title='testCases.inventory_Page_Test.verifyLinkedInLogoTest()'><b>verifyLinkedInLogoTest</b><br>Test class: testCases.inventory_Page_Test<br/>
+<a href="#Output-1838584624" onClick='toggleBox("Output-1838584624", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1838584624" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1838584624">
+the LinkedIn Logo is displayed on the webpage=true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.inventory_Page_Test@53fb3dab</td></tr>
+<tr>
+<td title='testCases.LoginPageTest.verifyUrlOfApplicationTest()'><b>verifyUrlOfApplicationTest</b><br>Test class: testCases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.LoginPageTest@6440112d</td></tr>
+<tr>
+<td title='testCases.inventory_Page_Test.add6ProductTest()'><b>add6ProductTest</b><br>Test class: testCases.inventory_Page_Test<br/>
+<a href="#Output-779166731" onClick='toggleBox("Output-779166731", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-779166731" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-779166731">
+total numbers of Products in cart=6<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.inventory_Page_Test@53fb3dab</td></tr>
+<tr>
+<td title='testCases.LoginPageTest.LoginToApplicationTest()'><b>LoginToApplicationTest</b><br>Test class: testCases.LoginPageTest<br/>
+<a href="#Output-1421101177" onClick='toggleBox("Output-1421101177", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1421101177" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1421101177">
+After Login Inventory Page Should be come =https://www.saucedemo.com/inventory.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.LoginPageTest@6440112d</td></tr>
+</table><p>
+</body>
+</html>

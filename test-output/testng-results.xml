@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Visibility of Cart Page Title=Your Cart]]>
+    </line>
+    <line>
+      <![CDATA[Visibility of Cart Page URL=https://www.saucedemo.com/cart.html]]>
+    </line>
+    <line>
+      <![CDATA[Visibility of checkout step one pagehttps://www.saucedemo.com/checkout-step-one.html]]>
+    </line>
+    <line>
+      <![CDATA[Visibility of inventory page=https://www.saucedemo.com/inventory.html]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-30T10:23:53 IST" name="Default suite" finished-at="2023-12-30T10:24:36 IST" duration-ms="42902">
+    <groups>
+      <group name="Sanity">
+        <method signature="Cart_Page_Test.verifyCartPageLableTest()[pri:0, instance:testCases.Cart_Page_Test@1cf6d1be]" name="verifyCartPageLableTest" class="testCases.Cart_Page_Test"/>
+        <method signature="Cart_Page_Test.verifyContinueShoppingBtnTest()[pri:0, instance:testCases.Cart_Page_Test@1cf6d1be]" name="verifyContinueShoppingBtnTest" class="testCases.Cart_Page_Test"/>
+      </group> <!-- Sanity -->
+      <group name="Retesting">
+        <method signature="Cart_Page_Test.verifyCartPageUrlTest()[pri:0, instance:testCases.Cart_Page_Test@1cf6d1be]" name="verifyCartPageUrlTest" class="testCases.Cart_Page_Test"/>
+      </group> <!-- Retesting -->
+      <group name="Regression">
+        <method signature="Cart_Page_Test.verifyClickOnCheckOutBtnTest()[pri:0, instance:testCases.Cart_Page_Test@1cf6d1be]" name="verifyClickOnCheckOutBtnTest" class="testCases.Cart_Page_Test"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-12-30T10:23:53 IST" name="Default test" finished-at="2023-12-30T10:24:36 IST" duration-ms="42902">
+      <class name="testCases.Cart_Page_Test">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.Cart_Page_Test@1cf6d1be]" started-at="2023-12-30T10:23:53 IST" name="Setup" finished-at="2023-12-30T10:24:05 IST" duration-ms="12015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyCartPageLableTest()[pri:0, instance:testCases.Cart_Page_Test@1cf6d1be]" started-at="2023-12-30T10:24:05 IST" name="verifyCartPageLableTest" finished-at="2023-12-30T10:24:06 IST" duration-ms="1666" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Visibility of Cart Page Title=Your Cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartPageLableTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.Cart_Page_Test@1cf6d1be]" started-at="2023-12-30T10:24:06 IST" name="closeBrowser" finished-at="2023-12-30T10:24:07 IST" duration-ms="186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCartPageLableTest status=SUCCESS method=Cart_Page_Test.verifyCartPageLableTest()[pri:0, instance:testCases.Cart_Page_Test@1cf6d1be] output=Visibility of Cart Page Title=Your Cart]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.Cart_Page_Test@1cf6d1be]" started-at="2023-12-30T10:24:07 IST" name="Setup" finished-at="2023-12-30T10:24:16 IST" duration-ms="9175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyCartPageUrlTest()[pri:0, instance:testCases.Cart_Page_Test@1cf6d1be]" started-at="2023-12-30T10:24:16 IST" name="verifyCartPageUrlTest" finished-at="2023-12-30T10:24:16 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Visibility of Cart Page URL=https://www.saucedemo.com/cart.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartPageUrlTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.Cart_Page_Test@1cf6d1be]" started-at="2023-12-30T10:24:16 IST" name="closeBrowser" finished-at="2023-12-30T10:24:16 IST" duration-ms="267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCartPageUrlTest status=SUCCESS method=Cart_Page_Test.verifyCartPageUrlTest()[pri:0, instance:testCases.Cart_Page_Test@1cf6d1be] output=Visibility of Cart Page URL=https://www.saucedemo.com/cart.html]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.Cart_Page_Test@1cf6d1be]" started-at="2023-12-30T10:24:16 IST" name="Setup" finished-at="2023-12-30T10:24:25 IST" duration-ms="9230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyClickOnCheckOutBtnTest()[pri:0, instance:testCases.Cart_Page_Test@1cf6d1be]" started-at="2023-12-30T10:24:25 IST" name="verifyClickOnCheckOutBtnTest" finished-at="2023-12-30T10:24:26 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Visibility of checkout step one pagehttps://www.saucedemo.com/checkout-step-one.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnCheckOutBtnTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.Cart_Page_Test@1cf6d1be]" started-at="2023-12-30T10:24:26 IST" name="closeBrowser" finished-at="2023-12-30T10:24:26 IST" duration-ms="189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickOnCheckOutBtnTest status=SUCCESS method=Cart_Page_Test.verifyClickOnCheckOutBtnTest()[pri:0, instance:testCases.Cart_Page_Test@1cf6d1be] output=Visibility of checkout step one pagehttps://www.saucedemo.com/checkout-step-one.html]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.Cart_Page_Test@1cf6d1be]" started-at="2023-12-30T10:24:26 IST" name="Setup" finished-at="2023-12-30T10:24:35 IST" duration-ms="9374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyContinueShoppingBtnTest()[pri:0, instance:testCases.Cart_Page_Test@1cf6d1be]" started-at="2023-12-30T10:24:35 IST" name="verifyContinueShoppingBtnTest" finished-at="2023-12-30T10:24:35 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Visibility of inventory page=https://www.saucedemo.com/inventory.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyContinueShoppingBtnTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.Cart_Page_Test@1cf6d1be]" started-at="2023-12-30T10:24:35 IST" name="closeBrowser" finished-at="2023-12-30T10:24:36 IST" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContinueShoppingBtnTest status=SUCCESS method=Cart_Page_Test.verifyContinueShoppingBtnTest()[pri:0, instance:testCases.Cart_Page_Test@1cf6d1be] output=Visibility of inventory page=https://www.saucedemo.com/inventory.html]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.Cart_Page_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

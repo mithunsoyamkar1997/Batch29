@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login_inventory_Suite">
+  <test thread-count="5" name="Login_inventory_Test">
+    <classes>
+      <class name="testCases.inventory_Page_Test"/>
+      <class name="testCases.LoginPageTest"/>
+    </classes>
+  </test> <!-- Login_inventory_Test -->
+</suite> <!-- Login_inventory_Suite -->
+  
